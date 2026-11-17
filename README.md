@@ -4,12 +4,14 @@ Mathematical functions eg f(x)=g(x)usually show a relationship between independe
 
 for example :
   
-  a = b + c
+       a = b + c
+
   in this classic example , we know for sure that adding c by 1 will increase a by 1 and will have no effect on b, because b is independent and a is dependent on both c and b.Hence any change in c or b will change a.
 
   One could argue the other way around and change the equation to take the form:
 
-  b + c = a 
+       b + c = a 
+       
   where a takes the form of an independent variable and b and c takes the form of the dependent variables. In such a situation a change in a affects both b and c but the degree to which a affects b and c is what is mathematically appealing because given a perfect a , you could run your way back to the proper values of b and c.
 
 This activity is known as backpropagation, where we look at the relationship between the independent variables relative to the dependent ones and tweak our independent variables to get the shape that we want for our dependent variable.
@@ -30,13 +32,4 @@ This repo aims at making the micrograd engine , an inspiration from Andrej karpa
    4. Training habits of a neural network.
 
 
-# QUESTIONS WHEN IMPLEMENTING THE MICRO_GRAD:
-  
 
-
-# RESULTS
-
-  
- 
-
-# micro-grad
